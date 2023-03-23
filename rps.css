@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body{
+  background: rgb(0, 0, 0);
+  color: white;
+  width: 100%;
+  height: 100vh;
+  font-weight: 600;
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+ h1{
+  font-size: 40px;
+  padding: 10px;
+ }
+ h2{
+  font-size:30px ;
+  padding-bottom: 10px;
+ }
+ p{
+  font-size: 20px;
+  padding-bottom: 10px;
+ }
+
+ .game{
+  line-height: 2.5;
+ }
+ 
+ #user-choice{
+  color: blue;
+  font-size: 20px;
+  margin: 10px;
+ }
+
+#computer-choice{
+  color: green;
+  font-size: 20px;
+  margin: 10px;
+}
+#result{
+  color: red;
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+ button{
+  
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  padding: 10px;
+  margin: 20px;
+  height: 50px;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(252, 252, 252, 0.083), 5px 5px 15px rgba(252, 251, 251, 0.163) ;
+
+ }
+ button:hover{
+  background: rgb(22, 21, 21);
+  transition: ease-in 0.5s;
+  color: white;
+  
+  
+ }
